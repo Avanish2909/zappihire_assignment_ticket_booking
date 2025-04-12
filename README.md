@@ -16,81 +16,65 @@ Suggested Content for README.md:
 Project Title
 Add the title of your project at the beginning.
 
-Code
-# Zappihire Assignment - Ticket Booking
-Project Description
-Provide a brief description of the project, including its purpose and functionality.
 
-Code
-## Description
-This project is a ticket booking system designed to manage and simplify the process of reserving tickets for events, movies, or other activities. It includes features like user registration, ticket availability checks, and booking confirmation.
+Zappihire Assignment - Ticket Booking
+Description
+This is a ticket booking application built using React and JavaScript. The application allows users to browse events, check ticket availability, and book tickets seamlessly. The project is designed to provide an intuitive and user-friendly interface for managing ticket bookings.
+
 Technologies Used
-Mention the technologies or tools used in the project.
-
-Code
-## Technologies Used
-- Python (e.g., Flask/Django)
-- HTML/CSS/JavaScript (Frontend)
-- Database (e.g., MySQL/PostgreSQL)
+React.js
+JavaScript (ES6+)
+CSS for styling
+Node.js (if applicable for backend)
+Any additional libraries (e.g., Axios, React Router)
 Prerequisites
-List any software or tools needed to run the project.
+Before you can run this project, make sure you have the following installed:
 
-Code
-## Prerequisites
-- Python 3.x installed
-- Virtual environment package (venv or virtualenv)
-- Database setup (e.g., MySQL/PostgreSQL) with credentials
-Installation Instructions
-Provide step-by-step instructions to set up and run the project.
+Node.js (v14 or later)
+npm or yarn (Node Package Manager)
+Installation and Setup
+Follow these steps to set up and run the project locally:
 
-Code
-## Installation and Setup
-1. Clone the repository:
+Clone the repository:
+
+bash
 git clone https://github.com/Avanish2909/zappihire_assignment_ticket_booking.git
+Navigate to the project directory:
 
-Code
-2. Navigate to the project directory:
+bash
 cd zappihire_assignment_ticket_booking
+Install dependencies:
+
+bash
+npm install
+Or, if you're using yarn:
+
+bash
+yarn install
+Start the development server:
+
+bash
+npm start
+Or, if you're using yarn:
+
+bash
+yarn start
+Open your browser and navigate to:
 
 Code
-3. Create a virtual environment:
-python -m venv env
-
-Code
-4. Activate the virtual environment:
-- Windows: `.\env\Scripts\activate`
-- Mac/Linux: `source env/bin/activate`
-5. Install dependencies:
-pip install -r requirements.txt
-
-Code
-6. Set up the database:
-- Configure the database in `settings.py` or `.env`
-- Run migrations:
-  ```
-  python manage.py makemigrations
-  python manage.py migrate
-  ```
-7. Start the development server:
-python manage.py runserver
-
-Code
-8. Open your browser and navigate to `http://127.0.0.1:8000`.
-
+http://localhost:3000
+Features
+User-friendly interface.
+Event browsing and ticket booking functionality.
+Responsive design for mobile and desktop.
 Usage
-Explain how to use the project.
-
-Code
-## Usage
-- Register or log in to access the booking system.
-- Search for available tickets.
-- Complete the booking process.
+Browse available events and tickets.
+Select the desired event and number of tickets.
+Complete the booking process.
 Contributing
-Mention how others can contribute to the project.
+Contributions are welcome! Feel free to fork this repository and submit a pull request with your improvements.
 
-Code
-## Contributing
-Contributions are welcome! Feel free to fork this repository and submit pull requests.
 License
-Include license information (if applicable).
+This project is licensed under the MIT License.
 
+You can edit the above content to match the exact details of your project and include additional sections if necessary. Let me know if you need further help!
